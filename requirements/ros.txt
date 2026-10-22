@@ -1,0 +1,7 @@
+# System packages; install through Ubuntu/ROS package management, not pip.
+ROS Noetic
+OpenCV 4.x
+Eigen3
+Ceres Solver
+PCL
+camodocal-compatible camera model dependencies

@@ -1,0 +1,4 @@
+method,native_coverage,translation_median_m,translation_p95_m,translation_max_m,translation_outlier_ratio,rotation_max_deg
+VINS-RGBD,0.992497,0.042823,0.056718,0.078276,0.001109,8.422246
+ORB-SLAM3,0.999038,0.048522,0.068953,45.972055,0.006101,148.301532
+RTAB-Map,1.000000,0.049350,0.069487,0.125924,0.003882,8.941073

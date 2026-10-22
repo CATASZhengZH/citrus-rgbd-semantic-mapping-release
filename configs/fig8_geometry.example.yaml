@@ -1,0 +1,10 @@
+input: frozen_online_yolov8_semantic_point_cloud
+method: relaxed_offline_sphere_fitting
+minimum_support: 12
+radius_range_m: [0.020, 0.045]
+inlier_distance_m: 0.010
+minimum_inlier_ratio: 0.30
+maximum_median_residual_m: 0.012
+roi_1: {x: [24.70, 27.10], y: [-13.25, -10.85], z: [0.25, 1.15]}
+roi_2: {x: [21.00, 23.40], y: [-12.55, -10.15], z: [0.25, 1.15]}
+scientific_boundary: geometrically supported hypotheses, not fruit-count ground truth

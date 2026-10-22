@@ -1,0 +1,14 @@
+data_root: /path/to/orchard1
+test_split: splits/test.txt
+image_count: 91
+models: [BiSeNetV1, YOLOv8, YOLO11, YOLO26]
+inference:
+  image_size: 640
+  confidence: 0.25
+  iou: 0.70
+mapping:
+  valid_rgbd_observations: 5159
+  voxel_size_m: 0.05
+  depth_range_m: [0.3, 2.5]
+  frame_balanced_voting: true
+pose_chain: T_world_camera = T_world_imu @ T_imu_camera

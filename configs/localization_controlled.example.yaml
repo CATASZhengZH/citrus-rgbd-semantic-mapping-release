@@ -1,0 +1,7 @@
+data_root: /path/to/orchard1
+semantic_observations: frozen_yolov8
+localization_backends: [VINS-RGBD, ORB-SLAM3, RTAB-Map]
+common_observation_count: 1804
+trajectory_interpolation: false
+normalization: first camera pose
+voxel_size_m: 0.05

@@ -1,0 +1,4 @@
+method,scope_frames,semantic_conflict_rate,normalized_semantic_entropy,valid_semantic_voxel_count,citrus_voxel_count,tree_voxel_count,trunk_voxel_count,isolated_semantic_voxel_ratio,mean_observations_per_voxel,median_observations_per_voxel
+VINS-RGBD,1804,0.128052,0.051752,517744,6936,502442,8366,0.000170,13.065509,9.000000
+ORB-SLAM3,1804,0.122951,0.049886,542796,7512,526076,9208,0.000197,12.470733,8.000000
+RTAB-Map,1804,0.121894,0.049720,553849,7551,536869,9429,0.000199,12.250962,8.000000
