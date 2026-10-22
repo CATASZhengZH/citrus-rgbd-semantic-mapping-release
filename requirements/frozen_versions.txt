@@ -1,0 +1,12 @@
+# Versions recorded by the formal inference environment; this is provenance,
+# not a claim that every package can be installed from one public pip index.
+Python system: 3.8.10
+NumPy: 1.24.4
+SciPy: 1.10.1
+OpenCV: 4.12.0
+PyTorch: 2.4.1+cu121
+CUDA build used by PyTorch: 12.1
+Ultralytics: 8.4.84
+PyYAML: 5.3.1
+Matplotlib: 3.7.5
+Pillow: 10.4.0
